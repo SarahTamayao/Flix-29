@@ -13,15 +13,11 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 #### BONUS
 - [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+- [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-GIF will be added once I'm done with the bonus!
-
-### Notes
-Describe any challenges encountered while building the app.
+<img src="http://g.recordit.co/vjLQhjfocd.gif" width=250>
+<img src="http://g.recordit.co/WHdswdFQ2U.gif" width=250><br>
 
 ---
 
