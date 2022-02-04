@@ -41,8 +41,6 @@ class MoviesGridViewController: UIViewController {
                  self.movies = dataDictionary["results"] as! [[String:Any]]
                  
                  self.collectionView.reloadData()
-                 
-                 print(self.movies)
 
              }
         }

@@ -33,18 +33,38 @@ class MoviesDetailsViewController: UIViewController {
         let backdropURL = URL(string:  "https://image.tmdb.org/t/p/w780" + backdropPath)
         
         backdropView.af.setImage(withURL: backdropURL!)
-    
+        
+        // Tap Gesture Config:
+        
+        // The didTap: method will be defined in Step 3 below.
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(didTap(sender:)))
+
+        // Optionally set the number of required taps, e.g., 2 for a double click
+        tapGestureRecognizer.numberOfTapsRequired = 1
+
+        // Attach it to a view of your choice. If it's a UIImageView, remember to enable user interaction
+        posterView.isUserInteractionEnabled = true
+        posterView.addGestureRecognizer(tapGestureRecognizer)
+        
     }
     
 
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+     
+     @objc func didTap(sender: UITapGestureRecognizer) {
+         
+         sender.location(in: posterView)
+         performSegue(withIdentifier: "trailerSegue2", sender: self)
+         
+     }
+     
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         
+         // Find the selected movie:
+         
+         let detailsViewController = segue.destination as! TrailerViewController
+         detailsViewController.movie = movie
+     }
 
 }

@@ -22,6 +22,7 @@
 		92D95ECA27ABA49E0083ADFA /* MoviesGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D95EC927ABA49E0083ADFA /* MoviesGridViewController.swift */; };
 		92D95ECC27ABAAB20083ADFA /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D95ECB27ABAAB20083ADFA /* MovieGridCell.swift */; };
 		92D95ECE27ABB5AF0083ADFA /* CollectionMoviesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D95ECD27ABB5AF0083ADFA /* CollectionMoviesDetailsViewController.swift */; };
+		92D95ED027ACF94A0083ADFA /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D95ECF27ACF94A0083ADFA /* TrailerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		92D95EC927ABA49E0083ADFA /* MoviesGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesGridViewController.swift; sourceTree = "<group>"; };
 		92D95ECB27ABAAB20083ADFA /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		92D95ECD27ABB5AF0083ADFA /* CollectionMoviesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionMoviesDetailsViewController.swift; sourceTree = "<group>"; };
+		92D95ECF27ACF94A0083ADFA /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				92D95EC927ABA49E0083ADFA /* MoviesGridViewController.swift */,
 				92D95ECB27ABAAB20083ADFA /* MovieGridCell.swift */,
 				92D95ECD27ABB5AF0083ADFA /* CollectionMoviesDetailsViewController.swift */,
+				92D95ECF27ACF94A0083ADFA /* TrailerViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				928C5A7D27A4A1AB0034A919 /* MoviesViewController.swift in Sources */,
 				92D95ECA27ABA49E0083ADFA /* MoviesGridViewController.swift in Sources */,
 				92D95ECC27ABAAB20083ADFA /* MovieGridCell.swift in Sources */,
+				92D95ED027ACF94A0083ADFA /* TrailerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
